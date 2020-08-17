@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/home/orlovkn/Dev/ecommerce'
+VIRTUAL_ENV='/media/orlovkn/work/cloud/job/practice/ecommerce'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

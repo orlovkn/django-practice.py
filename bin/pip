@@ -1,4 +1,4 @@
-#!/home/orlovkn/Dev/ecommerce/bin/python
+#!/media/orlovkn/work/cloud/job/practice/ecommerce/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
