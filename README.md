@@ -20,5 +20,5 @@ source bin/activate
 
 ### links
 
-1. [django forms] (https://docs.djangoproject.com/en/3.1/ref/forms/fields/)
+1. [django forms](https://docs.djangoproject.com/en/3.1/ref/forms/fields/)
 
