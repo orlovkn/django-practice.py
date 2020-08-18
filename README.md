@@ -1,10 +1,9 @@
 ## Python eCommerce. Build a Django eCommerce Web Application
 
-### install Django
+### install Django [on Linux Ubuntu](https://www.codingforentrepreneurs.com/blog/install-django-on-linux-ubuntu/)
 ```
 python3 -m pip install Django
 ```
-[Install Django on Linux Ubuntu](https://www.codingforentrepreneurs.com/blog/install-django-on-linux-ubuntu/)
 
 ### create new folder for project
 ```
@@ -13,12 +12,12 @@ cd ecommerce
 pwd
 ```
 
-### create and activate a virtualenv
+### create virtualenv
 ```
 virtualenv -p python3 .
 ```
 
-### activate a virtualenv
+### activate virtualenv
 ```
 source bin/activate
 ```
