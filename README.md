@@ -15,7 +15,17 @@ pwd
 ### create and activate a virtualenv
 ```
 virtualenv -p python3 .
+```
+
+### activate a virtualenv
+```
 source bin/activate
+```
+
+### run server
+```
+python3 manage.py runserver
+python3 manage.py runserver 8888
 ```
 
 ### links
