@@ -1,4 +1,4 @@
-## Python eCommerce. Build a Django eCommerce Web Application
+## Build a Django eCommerce Web Application with Python
 
 ### install Django [on Linux Ubuntu](https://www.codingforentrepreneurs.com/blog/install-django-on-linux-ubuntu/)
 ```
@@ -12,12 +12,12 @@ cd ecommerce
 pwd
 ```
 
-### create virtualenv
+### create venv
 ```
 virtualenv -p python3 .
 ```
 
-### activate virtualenv
+### activate venv
 ```
 source bin/activate
 ```
@@ -28,8 +28,13 @@ python3 manage.py runserver
 python3 manage.py runserver 8888
 ```
 
-### links
+### collect static
+```
+python3 manage.py collectstatic
+```
 
+### links
 1. [forms and fields](https://docs.djangoproject.com/en/3.1/ref/forms/fields/)
-1. [authentification](https://docs.djangoproject.com/en/3.1/topics/auth/default/)
+1. [auth and registration](https://docs.djangoproject.com/en/3.1/topics/auth/default/)
+1. [static files](https://docs.djangoproject.com/en/3.1/howto/static-files/)
 
