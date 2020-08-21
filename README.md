@@ -9,7 +9,6 @@ python3 -m pip install Django
 ```
 mkdir ecommerce
 cd ecommerce
-pwd
 ```
 
 ### create venv
@@ -38,3 +37,22 @@ python3 manage.py collectstatic
 1. [auth and registration](https://docs.djangoproject.com/en/3.1/topics/auth/default/)
 1. [static files](https://docs.djangoproject.com/en/3.1/howto/static-files/)
 
+### create an app
+```
+python3 manage.py startapp + name
+```
+
+### CRUD
+```
+Create — POST
+Retrieve / List / Search — GET
+Update — PUT / Patch / POST
+Delete — DELETE
+```
+
+### rules
+after all new model changes you should do this
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
