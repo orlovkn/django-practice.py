@@ -1,5 +1,5 @@
 {% for obj in object_list %}
 
-    {{ obj.title }}: {{ obj.price }}$<br>
+    <a href="/product/{{ obj.id }}/">{{ obj.title }}</a>: {{ obj.price }}$<br>
 
 {% endfor %}

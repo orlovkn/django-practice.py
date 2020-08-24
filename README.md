@@ -36,6 +36,8 @@ python3 manage.py collectstatic
 1. [forms and fields](https://docs.djangoproject.com/en/3.1/ref/forms/fields/)
 1. [auth and registration](https://docs.djangoproject.com/en/3.1/topics/auth/default/)
 1. [static files](https://docs.djangoproject.com/en/3.1/howto/static-files/)
+1. [Common Regular Expressions for Django URLs](https://www.codingforentrepreneurs.com/blog/common-regular-expressions-for-django-urls)
+1. [Generic list and detail views](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views)
 
 ### create an app
 ```

@@ -31,9 +31,7 @@ urlpatterns = [
     path('login/', login_page),
     path('register/', register_page),
     path('products/', ProductListView.as_view()),
-    path('products-fbv/', product_list_view),
-    path('products/(?P<pk>\d+)/$', ProductDetailView.as_view()),
-    path('products-fbv/(?P<pk>\d+)/$', product_detail_view),
+    path('product/<int:pk>/', ProductDetailView.as_view(), name='product-detail'),
 ]
 
 if settings.DEBUG:
