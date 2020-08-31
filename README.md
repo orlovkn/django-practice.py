@@ -37,7 +37,8 @@ python3 manage.py collectstatic
 1. [auth and registration](https://docs.djangoproject.com/en/3.1/topics/auth/default/)
 1. [static files](https://docs.djangoproject.com/en/3.1/howto/static-files/)
 1. [Common Regular Expressions for Django URLs](https://www.codingforentrepreneurs.com/blog/common-regular-expressions-for-django-urls)
-1. [Generic list and detail views](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views)
+1. [generic list and detail views](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views)
+1. [Large File Uploads with Amazon S3 + Django](https://www.codingforentrepreneurs.com/blog/large-file-uploads-with-amazon-s3-django/)
 
 ### create an app
 ```
@@ -57,4 +58,14 @@ after all new model changes you should do this
 ```
 python3 manage.py makemigrations
 python3 manage.py migrate
+```
+
+### filters
+```
+qs = Product.object.all()
+qs = Product.object.get(id=3)
+qs = Product.object.filter(id=4)
+qs = Product.object.filter(title__contains='hat')
+qs = Product.object.filter(description__contains='hat')
+qs = Product.object.filter(description__icontains='this')
 ```

@@ -3,6 +3,7 @@ bin/
 
 Pipfile
 Pipfile.lock
+static_cdn/media_root
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
