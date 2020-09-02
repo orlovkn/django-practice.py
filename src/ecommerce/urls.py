@@ -16,7 +16,15 @@ Including another URLconf
 from django.conf import settings
 from django.conf.urls.static import static
 
-from products.views import ProductListView, product_list_view, ProductDetailView, product_detail_view
+from products.views import (
+    ProductListView,
+    product_list_view,
+    ProductDetailView,
+    ProductDetailSlugView,
+    product_detail_view,
+    ProductFeaturedListView,
+    ProductFeaturedDetailView
+)
 
 from django.contrib import admin
 from django.urls import path
@@ -31,7 +39,10 @@ urlpatterns = [
     path('login/', login_page),
     path('register/', register_page),
     path('products/', ProductListView.as_view()),
-    path('product/<int:pk>/', ProductDetailView.as_view(), name='product-detail'),
+    # path('products/<int:pk>/', ProductDetailView.as_view()),
+    path('products/<slug:slug>/', ProductDetailSlugView.as_view(), name='product'),
+    path('featured/', ProductFeaturedListView.as_view()),
+    path('featured/<int:pk>/', ProductFeaturedDetailView.as_view()),
 ]
 
 if settings.DEBUG:

@@ -1,0 +1,10 @@
+<h1>{{ object.title }}</h1>
+<h2>{{ object.price }}$</h2>
+
+<p>{{ object.description }}</p>
+
+{% if object.image %}
+
+    <img src="{{ object.image.url }}" alt="">
+
+{% endif %}
