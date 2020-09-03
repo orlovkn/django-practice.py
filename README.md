@@ -33,12 +33,18 @@ python3 manage.py collectstatic
 ```
 
 ### links
+1. [start project](https://realpython.com/customize-django-admin-python/)
 1. [forms and fields](https://docs.djangoproject.com/en/3.1/ref/forms/fields/)
+1. [urls](https://docs.djangoproject.com/en/3.1/topics/http/urls/)
 1. [auth and registration](https://docs.djangoproject.com/en/3.1/topics/auth/default/)
 1. [static files](https://docs.djangoproject.com/en/3.1/howto/static-files/)
 1. [Common Regular Expressions for Django URLs](https://www.codingforentrepreneurs.com/blog/common-regular-expressions-for-django-urls)
 1. [generic list and detail views](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views)
 1. [Large File Uploads with Amazon S3 + Django](https://www.codingforentrepreneurs.com/blog/large-file-uploads-with-amazon-s3-django/)
+1. [A Unique Slug Generator for Django](https://www.codingforentrepreneurs.com/blog/a-unique-slug-generator-for-django/)
+1. [Random String Generator in Python](https://www.codingforentrepreneurs.com/blog/random-string-generator-in-python/)
+
+1. [Django Admin Cookbook](https://books.agiliq.com/projects/django-admin-cookbook/en/latest/index.html)
 
 ### create an app
 ```
