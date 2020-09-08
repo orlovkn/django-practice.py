@@ -1,10 +1,5 @@
 ## Build a Django eCommerce Web Application with Python
 
-### install Django [on Linux Ubuntu](https://www.codingforentrepreneurs.com/blog/install-django-on-linux-ubuntu/)
-```
-python3 -m pip install Django
-```
-
 ### create new folder for project
 ```
 mkdir ecommerce
@@ -19,6 +14,11 @@ virtualenv -p python3 .
 ### activate venv
 ```
 source bin/activate
+```
+
+### install Django [on Linux Ubuntu](https://www.codingforentrepreneurs.com/blog/install-django-on-linux-ubuntu/)
+```
+python3 -m pip install Django
 ```
 
 ### run server
@@ -45,6 +45,11 @@ python3 manage.py collectstatic
 1. [Random String Generator in Python](https://www.codingforentrepreneurs.com/blog/random-string-generator-in-python/)
 
 1. [Django Admin Cookbook](https://books.agiliq.com/projects/django-admin-cookbook/en/latest/index.html)
+
+### create a project
+```
+django-admin.py startproject orlovkn .
+```
 
 ### create an app
 ```
