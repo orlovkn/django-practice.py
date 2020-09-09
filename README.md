@@ -80,3 +80,4 @@ qs = Product.object.filter(title__contains='hat')
 qs = Product.object.filter(description__contains='hat')
 qs = Product.object.filter(description__icontains='this')
 ```
+s
