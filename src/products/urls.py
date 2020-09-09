@@ -11,7 +11,7 @@ from products.views import (
 )
 
 urlpatterns = [
-    path('', ProductListView.as_view(), name='list'),
+    path('', ProductListView.as_view(), name='products'),
     path('<slug:slug>/', ProductDetailSlugView.as_view(), name='detail'),
     # path('products/<int:pk>/', ProductDetailView.as_view()),
     # path('featured/', ProductFeaturedListView.as_view()),
