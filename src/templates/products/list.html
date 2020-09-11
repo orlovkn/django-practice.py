@@ -5,7 +5,14 @@
     <div class="row">
     {% for obj in object_list %}
         <dov class="col-3">
+            <!--{{ forloop.counter }}-->
             {% include 'products/snippets/card.html' with instance=obj %}
+
+            {% if forloop.counter|divisibleby:2 %}
+
+            {% else %}
+
+            {% endif %}
         </dov>
     {% endfor %}
     </div>
