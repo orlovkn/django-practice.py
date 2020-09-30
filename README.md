@@ -21,6 +21,31 @@ source bin/activate
 python3 -m pip install Django
 ```
 
+### add dir for apps
+```
+mkdir apps && cd apps
+```
+
+### create a project
+```
+django-admin.py startproject mysite .
+```
+
+### create an app
+```
+python3 manage.py startapp + name
+```
+
+### add another dirs in a root directory
+```
+mkdir {bin, config, static, templates, media}
+```
+- **apps** — customized django apps
+- **bin** — bash scripts
+- **config** — configuration files for databases, webservers, munin, celery, supervisor, etc
+- **media** — static assets such as javascript, css, images, fonts, etc
+- **static** — is where your compressed assets get dumped into for production
+
 ### run server
 ```
 python3 manage.py runserver
@@ -46,15 +71,6 @@ python3 manage.py collectstatic
 
 1. [Django Admin Cookbook](https://books.agiliq.com/projects/django-admin-cookbook/en/latest/index.html)
 
-### create a project
-```
-django-admin.py startproject orlovkn .
-```
-
-### create an app
-```
-python3 manage.py startapp + name
-```
 
 ### CRUD
 ```
